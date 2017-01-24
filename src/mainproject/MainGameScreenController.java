@@ -51,7 +51,7 @@ public class MainGameScreenController implements Initializable {
     }
 
     public void modifyNarratorDialogue1() throws IOException {
-        String file = "C:/Users/USER/Documents/NetBeansProjects/MainProject/src/files/naratorDialuge1.txt";
+        String file = "src/files/naratorDialuge1.txt";
         String word1 = GameScreenController.characterClass;
         String word2 = GameScreenController.characterName;
         String word3 = GameScreenController.characterBodyType;

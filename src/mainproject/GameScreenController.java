@@ -190,11 +190,11 @@ public class GameScreenController implements Initializable {
             muscularBox.setSelected(false);
             slimBox.setSelected(false);
         } else if (muscularBox.isSelected()) {
-            characterGender = "Muscular";
+            characterBodyType = "Muscular";
             fatBox.setSelected(false);
             slimBox.setSelected(false);
         } else if (slimBox.isSelected()) {
-            characterGender = "Slim";
+            characterBodyType = "Slim";
             fatBox.setSelected(false);
             muscularBox.setSelected(false);
         }
