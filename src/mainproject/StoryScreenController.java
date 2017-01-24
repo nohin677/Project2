@@ -44,7 +44,7 @@ public class StoryScreenController implements Initializable {
 
     @FXML
     private TextArea mainTextArea;
-    @FXML
+    @FXML//test
     private ComboBox<?> characterComboBox;
     @FXML
     private Button inventoryButton;
